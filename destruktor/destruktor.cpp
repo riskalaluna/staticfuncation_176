@@ -27,13 +27,14 @@ angka::~angka() {	//Destructor
 
 void angka::cetakData() {
 	for (int i = 1; i <= panjang; i++) {
-		cout << i << " = "; cin >> arr[i];
+		cout << i << " = " << arr[1] << endl;
 	}
 }
 
 void angka::isiData() {
-	for (int i = 1, i <= panjang, i++) {
-
+	for (int i = 1; i <= panjang; i++) {
+		cout << i << " = "; cin >> arr[i];
 	}
+	cout endl;
 }
 
